@@ -2,10 +2,10 @@ import React from 'react';
 
 const AwsInfoCards = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center py-8 dark:bg-gray-950 dark:text-white duration-200">
+    <div  className="min-h-screen bg-gray-100 flex flex-col items-center justify-center py-8 dark:bg-gray-950 dark:text-white duration-200">
       <h1 className="text-4xl font-bold text-[#FF9900] mb-8">AWS Overview</h1>
       <div className="flex flex-wrap justify-center items-center space-x-4 space-y-4">
-        <div className="max-w-sm bg-[#232F3E] text-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
+        <div data-aos="zoom-in" className="max-w-sm bg-[#232F3E] text-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
           <div className="bg-[#FF9900] p-4">
             <h2 className="text-2xl font-bold text-center">What is AWS?</h2>
           </div>
@@ -15,7 +15,7 @@ const AwsInfoCards = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-sm bg-[#232F3E] text-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
+        <div data-aos="zoom-in"  className="max-w-sm bg-[#232F3E] text-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
           <div className="bg-[#FF9900] p-4">
             <h2 className="text-2xl font-bold text-center">How to Use AWS?</h2>
           </div>
@@ -33,7 +33,7 @@ const AwsInfoCards = () => {
             </ul>
           </div>
         </div>
-        <div className="max-w-sm bg-[#232F3E] text-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
+        <div data-aos="zoom-in" className="max-w-sm bg-[#232F3E] text-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
           <div className="bg-[#FF9900] p-4">
             <h2 className="text-2xl font-bold text-center">Benefits of Using AWS</h2>
           </div>
